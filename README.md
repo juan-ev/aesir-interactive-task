@@ -5,8 +5,7 @@ Technical test for Senior/Lead Game Programmer position. First-person wave-defen
 ## Requirements
 
 - **Unreal Engine 5.8.2**
-- **Visual Studio 2022** (17.x, the toolchain UE 5.8 targets) or **Rider for Unreal Engine**
-- **Windows SDK version 10.0.22621.0**
+- **Visual Studio 2022** (17.x, the toolchain UE 5.8 targets, with **Windows SDK version 10.0.22621.0**)
 
 ## Project Structure
 
