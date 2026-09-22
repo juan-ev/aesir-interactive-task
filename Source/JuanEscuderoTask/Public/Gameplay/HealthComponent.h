@@ -23,6 +23,8 @@ public:
 	UHealthComponent();
 
 	virtual void BeginPlay() override;
+
+	/** Apply a health delta (negative = damage, positive = heal). */
 	void ApplyHealthChange(float Delta);
 
 private:

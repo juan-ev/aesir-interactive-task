@@ -1,5 +1,4 @@
 ﻿#include "Gameplay/Pickup.h"
-
 #include "Components/SphereComponent.h"
 #include "Gameplay/PickupEffect.h"
 

@@ -20,7 +20,10 @@ private:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "DefenseGameMode", meta = (AllowPrivateAccess = "true"))
 	int32 MaxBreachesAllowed = 3;
 
+	/** Fired every second to update the HUD countdown.  */
 	FTimerHandle TickTimer;
+
+	/** One-shot timer that ends the match. */
 	FTimerHandle MatchTimer;
 
 	void TickTime() const;

@@ -1,5 +1,4 @@
 ﻿#include "Gameplay/InteractionComponent.h"
-
 #include "Gameplay/Interactable.h"
 
 UInteractionComponent::UInteractionComponent()
@@ -35,7 +34,6 @@ void UInteractionComponent::HandleBeginOverlap(UPrimitiveComponent* OverlappedCo
 
 void UInteractionComponent::HandleEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
-	// Remove the actor that just stopped overlapping.
 	NearbyInteractables.RemoveAll([OtherActor](const TWeakObjectPtr<AActor>& Interactable)
 	{
 		return Interactable.Get() == OtherActor;
@@ -46,7 +44,6 @@ void UInteractionComponent::HandleEndOverlap(UPrimitiveComponent* OverlappedComp
 
 void UInteractionComponent::RefreshCurrentInteractable()
 {
-	// Remove invalid interactables.
 	NearbyInteractables.RemoveAll([](const TWeakObjectPtr<AActor>& Interactable)
 	{
 		return !Interactable.IsValid();

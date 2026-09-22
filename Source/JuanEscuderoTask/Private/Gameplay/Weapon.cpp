@@ -1,5 +1,4 @@
 ﻿#include "Gameplay/Weapon.h"
-
 #include "Engine/DamageEvents.h"
 
 AWeapon::AWeapon()

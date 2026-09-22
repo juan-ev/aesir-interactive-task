@@ -1,5 +1,4 @@
 ﻿#include "Gameplay/ClearEnemiesEffect.h"
-
 #include "EngineUtils.h"
 #include "Gameplay/Enemy.h"
 #include "Gameplay/HealthComponent.h"

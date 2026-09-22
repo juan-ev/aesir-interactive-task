@@ -1,5 +1,4 @@
 ﻿#include "Core/DefensePlayerController.h"
-
 #include "EnhancedInputSubsystems.h"
 #include "MVVMSubsystem.h"
 #include "Blueprint/UserWidget.h"

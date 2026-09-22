@@ -10,6 +10,7 @@ class JUANESCUDEROTASK_API UPickupEffect : public UObject
 	GENERATED_BODY()
 
 public:
+	/** Apply this effect, given the picker. Subclasses define the concrete behavior. */
 	UFUNCTION(BlueprintNativeEvent)
 	void Apply(AActor* Picker);
 

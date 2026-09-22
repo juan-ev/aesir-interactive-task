@@ -1,5 +1,4 @@
 ﻿#include "Gameplay/WeaponComponent.h"
-
 #include "Gameplay/Weapon.h"
 
 void UWeaponComponent::Equip(TSubclassOf<AWeapon> WeaponClass)

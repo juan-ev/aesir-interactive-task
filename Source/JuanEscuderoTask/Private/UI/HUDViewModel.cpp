@@ -1,5 +1,4 @@
 ﻿#include "UI/HUDViewModel.h"
-
 #include "Core/DefenseGameState.h"
 #include "Gameplay/Interactable.h"
 #include "Gameplay/InteractionComponent.h"

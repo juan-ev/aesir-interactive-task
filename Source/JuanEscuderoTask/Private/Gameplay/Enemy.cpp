@@ -1,5 +1,4 @@
 ﻿#include "Gameplay/Enemy.h"
-
 #include "Components/SphereComponent.h"
 #include "GameFramework/FloatingPawnMovement.h"
 #include "Gameplay/HealthComponent.h"
